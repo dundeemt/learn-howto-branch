@@ -13,7 +13,7 @@ git basics
 
 `git push origin branch-name` - push your branch to the server for others to see, fork
 
-`git merge branch-name` - 1st, switch to the merge target, in this case 'master', then issue the merge command and branch name to merge, this will commit the merge if it is clean.  If not, the dirty files will be marked up, then edit them as needed.  When done fixing, 'git add' tham to re-stage and mark as resolved, then 'git commit'
+`git merge branch-name` - 1st, switch to the merge target, in this case 'master', then issue the merge command and branch name to merge, this will commit the merge if it is clean.  If not, the dirty files will be marked up, then edit them as needed.  When done fixing, 'git add' tham to re-stage and mark as resolved, then 'git commit'  Then `git push` as needed.
 
 
 well mannered new fork with git
