@@ -1,7 +1,9 @@
 learn-howto-branch
 ==================
 
-practice branching and merginggit branch  - lists branch, current active branch marked with asterisk (*)
+practice branching and merging
+
+`git branch`  - lists branch, current active branch marked with asterisk (*)
 
 git branch branch-name - to create a branch named, branch-name, at the current point from the current branch
 git checkout branch-name - Switch to the new branch
