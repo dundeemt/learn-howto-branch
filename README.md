@@ -19,6 +19,9 @@ git basics
 well mannered new fork with git
 --------------------------------
   1. fork the project
+  2. add the upstream master
+    *  `git remote add upstream <remote project>` Assigns the original repo to a remote called "upstream"
+    *  `git fetch upstream`
   2. branch your fork with a good branch name
   3. push your branched fork up to the server
   4. hack-n-refactor, committing and pushing as needed
